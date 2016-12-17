@@ -27,5 +27,5 @@ app.use(express.static('public'));
 app.use('/', routes);
 
 app.listen(process.env.PORT || 3000, function() {
-	process.env.PORT == undefined? console.log("App listening on Port 3000"):console.log("App listening on PORT" + process.env.PORT);
+	process.env.PORT == undefined? console.log("Application is running on port 3000"):console.log("App listening on PORT" + process.env.PORT);
 });
